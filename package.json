@@ -1,0 +1,22 @@
+{
+  "name": "starnode-sample-code",
+  "version": "0.0.1",
+  "author": "ScaleDynamics SAS",
+  "license": "MIT",
+  "dependencies": {
+    "humanize-duration": "^3.17.0",
+    "warp": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaleDynamics/starnode-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScaleDynamics/starnode-sample/issues"
+  },
+  "homepage": "https://github.com/ScaleDynamics/starnode-sample#readme"
+}
