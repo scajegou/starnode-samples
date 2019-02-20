@@ -34,7 +34,7 @@ $ node prime/prime-node.js
 $ starnode --user <user-id> prime/prime-starnode.js 
 ```
 
-Compare execution time display at the end of each execution. If you want to remove details of the
+Compare execution time displayed at the end of each execution. If you want to remove details of the
 computation, redirect `stderr` elsewhere like below. _E.g._ following is what we get on
 a 6 CPUs computer:
 
