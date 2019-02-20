@@ -34,22 +34,17 @@ $ node prime/prime-node.js
 $ starnode --user <user-id> prime/prime-starnode.js 
 ```
 
-Compare execution time display at the end of each execution. _E.g._ below is what we get on
+Compare execution time display at the end of each execution. If you want to remove details of the
+computation, redirect `stderr` elsewhere like below. _E.g._ following is what we get on
 a 6 CPUs computer:
 
 ```
-$ node prime/prime-node.js 
+$ node prime/prime-node.js 2>/dev/null
 Computing 256 prime factorizations...
-[...]
-Prime factors of 9007199254041245 are 5,862117,2089553797
-Prime factors of 9007199254041246 are 2,3,3,3,12241,13626336589
 256 prime factorizations computed in 12.235 seconds by Node with its unique thread on a 6 CPU(s) host
 
-$ starnode --user=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx prime/prime-starnode.js 
+$ starnode --user=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx prime/prime-starnode.js 2>/dev/null
 Computing 256 prime factorizations...
-[...]
-Prime factors of 9007199254041243 are 3,3002399751347081
-Prime factors of 9007199254041227 are 9007199254041227
 256 prime factorizations computed in 2.525 seconds by Starnode with 6 warp thread(s) on a 6 CPU(s) host
 ```
 

@@ -61,7 +61,7 @@ async function run() {
 
   // Display results
   results.forEach((it) => {
-    console.log(`Prime factors of ${it.value} are ${it.factors}`
+    console.error(`Prime factors of ${it.value} are ${it.factors}`
       + (it.factors.reduce((acc, prime) => acc *= prime) === it.value ? '' : ' [Error]'));
   });
   console.log(`${results.length} prime factorizations computed in ${humanizeDuration(end - start)}`
