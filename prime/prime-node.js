@@ -36,7 +36,7 @@ function computePrimeFactorization(value) {
   return result;
 }
 
-async function run() {
+function run() {
   // Init data
   const numberOfFactorization = 256;
   console.log(`Computing ${numberOfFactorization} prime factorizations...`);
