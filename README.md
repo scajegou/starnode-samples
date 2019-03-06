@@ -29,8 +29,7 @@ $ node prime/prime-node.js
 ```
 
 - Run with _Starnode_ (the first time you launch _Starnode_, you may need to accept the
-'End User License Agreement' to create an anonymous user ID for development purpose):
-
+'End User License Agreement' to create an anonymous user ID for development purposes):
 ```
 $ starnode prime/prime-starnode.js 
 ```
