@@ -28,10 +28,11 @@ $ npm install
 $ node prime/prime-node.js
 ```
 
-- Run with _Starnode_ (replace `<user-id>` with your real user ID, create or log into
-[your account](https://www.scaledynamics.io) to get it):
+- Run with _Starnode_ (the first time you launch _Starnode_, you may need to accept the
+'End User License Agreement' to create an anonymous user ID for development purpose):
+
 ```
-$ starnode --user <user-id> prime/prime-starnode.js 
+$ starnode prime/prime-starnode.js 
 ```
 
 Compare execution time displayed at the end of each execution. If you want to remove details of the
@@ -43,7 +44,7 @@ $ node prime/prime-node.js 2>/dev/null
 Computing 256 prime factorizations...
 256 prime factorizations computed in 12.235 seconds by Node with its unique thread on a 6 CPU(s) host
 
-$ starnode --user=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx prime/prime-starnode.js 2>/dev/null
+$ starnode prime/prime-starnode.js 2>/dev/null
 Computing 256 prime factorizations...
 256 prime factorizations computed in 2.525 seconds by Starnode with 6 warp thread(s) on a 6 CPU(s) host
 ```
