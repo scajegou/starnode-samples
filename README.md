@@ -23,7 +23,7 @@ $ npm install
 
 ### Compute prime factorizations with _Starnode_
 
-- Run with _Node_
+- Run with _Node_:
 ```
 $ node prime/prime-node.js
 ```
